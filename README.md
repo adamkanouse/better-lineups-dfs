@@ -1,6 +1,8 @@
 # better-lineups-dfs
 Contains python programs for optimizing daily fantasy lineups based on a current projection file and current draftkings or fanduel player costs
 
+Uses files from BenBrostoff/draftfast
+
 The general purpose of this library is to enable anybody to use a solution to the "knapsack problem" to build an optimal daily 
 fantasy lineup given a set of projections and prices. The primary knapsack file is optimizer.py. I copied this code as is from
 and existing Git repository and have not had to change anything to get a working solution. Optimizer uses projections and salaries
